@@ -72,31 +72,31 @@ function changeCurrency() {
 
     if (currencySelect.value == "dolar") {
         currencyName.innerHTML = "Dólar americano"
-        currencyImage.src = "./assets/bandeira dos stados unidos.png"
+        currencyImage.src = "./bandeira dos stados unidos.png"
     }
 
     if (currencySelect.value == "euro") {
         currencyName.innerHTML = "Euro"
-        currencyImage.src = "./assets/moeda do euro.png" // Verifique se tem essa imagem na pasta assets
+        currencyImage.src = "./moeda do euro.png" // Verifique se tem essa imagem na pasta assets
     }
 
     if (currencySelect.value == "bitcoin") {
         currencyName.innerHTML = "Bitcoin"
-        currencyImage.src = "./assets/bitcoin-btc-logo.png" // Verifique se tem essa imagem na pasta assets
+        currencyImage.src = "./bitcoin-btc-logo.png" // Verifique se tem essa imagem na pasta assets
     }
 if (currencySelect.value == "libra") {
         currencyName.innerHTML = "Libra Esterlina"
-        currencyImage.src = "./assets/libra-logo.jpg" 
+        currencyImage.src = "./libra-logo.jpg" 
     }
 
     if (currencySelect.value == "dolar-canadense") {
         currencyName.innerHTML = "Dólar Canadense"
-        currencyImage.src = "./assets/moeda canadense.png" 
+        currencyImage.src = "./moeda canadense.png" 
     }
 
     if (currencySelect.value == "iene") {
         currencyName.innerHTML = "Iene Japonês"
-        currencyImage.src = "./assets/logo-iene-japones.png" 
+        currencyImage.src = "./logo-iene-japones.png" 
     }
     // Sempre que trocar a moeda, ele chama a conversão para atualizar os números
     convertValues()
@@ -106,4 +106,5 @@ if (currencySelect.value == "libra") {
 currencySelect.addEventListener("change", changeCurrency)
 convertButton.addEventListener("click", convertValues)
             
+
 
