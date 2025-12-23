@@ -8,7 +8,7 @@ Este projeto foi desenvolvido como parte da minha formação no **DevClub**, foc
 - **JavaScript**: Lógica de conversão e manipulação do DOM.
 
 ## 📌 Sobre o Projeto:
-O objetivo principal é permitir que o usuário converta valores entre diferentes moedas (Real, Dólar, Euro, Bitcoin) de forma simples e intuitiva.
+O objetivo principal é permitir que o usuário converta valores entre diferentes moedas (Real, Dólar Americano, Euro, Bitcoin,Dolar Canadense,Libra Esterlina,Yene Japonês ) de forma simples e intuitiva.
 
 ---
 ### 👩‍💻 Sobre Mim:
